@@ -39,11 +39,9 @@ PKG_CONFIGURE_OPTS_TARGET="ac_cv_func_malloc_0_nonnull=yes \
                            --with-libxslt-include-prefix=$SYSROOT_PREFIX/usr/include \
                            --with-libxslt-libs-prefix=$SYSROOT_PREFIX/usr/lib"
 
-PKG_IS_ADDON="yes"
 PKG_ADDON_TYPE="xbmc.python.script"
 PKG_ADDON_PROVIDES=""
 PKG_ADDON_REPOVERSION="6.0"
-PKG_AUTORECONF="yes"
 PKG_MAINTAINER="James White"
 
 makeinstall_target() {
